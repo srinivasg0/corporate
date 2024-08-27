@@ -2,20 +2,20 @@ import React from "react";
 
 const Desktop = () => {
   return (
-    <div className="w-full h-screen flex">
+    <div className="w-full h-screen flex ">
       {/* Left side with whatsapp-image */}
-      <div className="w-1/2 h-full relative">
+      <div className="w-1/2 h-[150%] relative object-cover ">
         <img
           className="absolute top-0 left-0 w-full h-full"
           loading="lazy"
           alt="Left Side Background"
-          src="/whatsapp-image-20240817-at-40052-pm-3@2x.png"
+          src="/corporate.svg"
         />
       </div>
 
       {/* Right side with rectangle-42046 background and cards */}
       <div
-        className="w-1/2 h-full relative bg-cover bg-no-repeat flex flex-col items-center justify-center"
+        className="w-1/2 h-[150%] relative bg-cover bg-no-repeat flex flex-col items-center justify-center"
         style={{
           backgroundImage: 'url("/rectangle-42046@2x.png")',
           backgroundSize: 'cover',
